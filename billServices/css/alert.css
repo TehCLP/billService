@@ -1,0 +1,37 @@
+﻿/* ---------- CONTENT BOXES ---------- */
+.information-box, .confirmation-box, .error-box, .warning-box, .loading-box {
+	padding: 0.833em 0.833em 0.833em 3em; /* 10/12 36/12 */
+	margin-bottom: 0.833em; /* 20/12 */
+}
+
+.information-box {
+	background: #e5f5f9 url('../images/icons/message-boxes/information.png') no-repeat 0.833em center;
+	border: 1px solid #cae0e5;
+	color: #5a9bab;
+}
+
+.confirmation-box {
+	background: #e7fae6 url('../images/icons/message-boxes/confirmation.png') no-repeat 0.833em center;
+	border: 1px solid #b7cbb6;
+	color: #52964f;
+}
+
+.error-box {
+	background: #fde8e4 url('../images/icons/message-boxes/error.png') no-repeat 0.833em center;
+	border: 1px solid #e6bbb3;
+	color: #cf4425;
+}
+
+.warning-box {
+	background: #fdf7e4 url('../images/icons/message-boxes/warning.png') no-repeat 0.833em center;
+	border: 1px solid #e5d9b2;
+	color: #b28a0b;
+}
+
+.loading-box{
+    background: #fdf7e4 url('../images/icons/uploading.gif') no-repeat 0.833em center;
+    border: 1px solid #e5d9b2;
+	color: #b28a0b;
+	padding-top:6px;
+	padding-bottom:7px;
+}

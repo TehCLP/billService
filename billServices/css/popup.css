@@ -1,0 +1,59 @@
+﻿/*--------------------------------------------------------------*/  
+/*------------------- style modal popup ------------------------*/
+/*--------------------------------------------------------------*/ 
+.modalDialog{
+	background-color:Gray;
+	padding:5px;
+	position:relative;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-khtml-border-radius: 5px; /* for old Konqueror browsers */
+	
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.8);
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.8);
+	box-shadow: 0 0 10px rgba(0,0,0,0.8);
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+}
+    .modalDialog .inner{
+	    background-color:White;
+	    width:100%-5px;	
+	    -webkit-border-radius: 5px;
+	    -moz-border-radius: 5px;
+	    border-radius: 5px;
+	    -khtml-border-radius: 5px; /* for old Konqueror browsers */
+    }
+        .modalDialog .inner h2.titleDialog{
+	        margin:0;
+	        padding-left:10px;
+	        padding-top:10px;
+	        color:#04C5B2;
+	        font-size:1.6em;
+        }
+        .modalDialog .inner .detailDialog{
+	        padding:20px 10px 10px 10px;
+        }
+            .modalDialog .inner .detailDialog table tr{
+                background:none;
+            }
+        .modalDialog .inner .buttomDialog{
+	        text-align:center;
+	        border-top:1px solid #ececec;
+	        padding:10px 0;
+        }
+.close_modelDialog{
+	display:block;
+	background:url(../images/icons/close.png) no-repeat 0% 0%;
+	width:30px;
+	height:30px;
+	position:absolute;
+	top:-10px;
+	right:-10px;
+}
+.modal_background{
+	background-color: #111;
+	filter: alpha(opacity=50);
+	opacity: 0.5;
+	z-index:15 !important;
+}

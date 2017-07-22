@@ -1,0 +1,167 @@
+﻿body {
+    font-size:14px;
+    color:#2f2f2f;
+}
+a img{ border:none; text-decoration:none;}
+
+.fl{float:left;}
+.fr{float:right;}
+.cb{clear:both;}
+
+.r{text-align:right;}
+.l{text-align:left;}
+.c{text-align:center;}
+
+.vt{vertical-align:top;}
+.vm{vertical-align:middle;}
+.vb{vertical-align:bottom;}
+
+.hide{display:none;}
+
+input[type="submit"],input[type="button"] {
+    padding:5px 10px;
+}
+
+.line{
+    margin:10px 0;
+    border:1px solid #eaeaea;
+}
+.round {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-khtml-border-radius: 5px; /* for old Konqueror browsers */
+}
+.modal_background
+{
+	background-color: #111;
+	filter: alpha(opacity=50);
+	opacity: 0.5;
+	z-index:15 !important;
+}
+
+#wrapper{
+    width:94%;
+    margin:0 auto;
+    border:1px solid #eaeaea;
+}
+#contentTitle{
+    background-color:#f0f0f0;
+    padding:15px 0;
+    font-size:20px;
+    font-weight:bold;
+    text-align:center;    
+}
+#contentL{
+    width:22%;
+    background-color:#f0f0f0;
+    vertical-align:top;
+}
+    #sideMenu{
+        padding:10px;
+    }
+        #sideMenu > div{
+            background:url(../images/icons/arrow-r.png) no-repeat left center;
+            height:20px;
+            line-height:20px;
+            padding-left:20px;
+            margin-bottom:10px;
+        }
+#contentR{
+    width:76%;
+    vertical-align:top;
+}
+    .title_bar {
+        border-bottom:1px solid #eaeaea;
+        font-size:18px;
+        font-weight:bold;
+        font-style:italic;
+        padding:10px 0 10px 5px;
+        margin-bottom:10px;
+    }
+    
+.require {
+    color:Red;
+    font-weight:bold;
+}
+.waterMark {
+	color:Gray;
+	font-style:italic;
+}
+
+/*--------------------------------------------------------------*/  
+/*------------------- style gridview ---------------------------*/
+/*--------------------------------------------------------------*/  
+	.mGrid {   
+		width: 100%;   
+		background-color: #fff;  
+		margin-bottom:10px; 
+		/*margin: 5px 0 10px 0;*/   
+		/*border: solid 1px #525252;*/   
+		border-collapse:collapse;   
+	}  
+	.mGrid td {   
+		padding: 4px;   
+		/*border: solid 1px #c1c1c1;*/   
+		color: #717171;   
+	}  
+	.mGrid th {   
+		padding: 4px 2px;   
+		color: #fff;   
+		background: #7392AF; /*#424242 url(../images/grd_head.png) repeat-x top;*/   
+		/*border-left: solid 1px #525252;*/   
+		font-size: 12px; 
+		line-height:1.6em; 
+	}  
+	.mGrid .alt { background: #fcfcfc url(../images/grd_alt.png) repeat-x top; }  
+	.mGrid .pgr { background: #7392AF; /*#424242 url(../images/grd_pgr.png) repeat-x top;*/ }  
+	.mGrid .pgr table { margin: 5px 0; }
+	.mGrid .pgr td {   
+		border-width: 0;   
+		padding: 0 6px;   
+		border-left: solid 1px #666;   
+		/*font-weight: bold;*/ 
+		font-size:12px; 
+		color: #fff;   
+		line-height: 12px;   
+	 }     
+	.mGrid .pgr td:first-child { border-left:none; }
+	.mGrid .pgr a { color: #666; text-decoration: none; }  
+	.mGrid .pgr a:hover { color: #000; text-decoration: none; }
+	
+	/*------ For UserControl GridviewPager -------------*/ 
+	.mGrid .pgrs table{padding: 20px;}
+    .mGrid .pgrs {background-color: #F1F1F1; }
+    .mGrid .pgrs td{border: solid 1px #CCCCCC; color: #000000;}
+    .mGrid .pgrs a{color: #ffffff; text-decoration: underline;}
+    .mGrid .pgrs a:hover{color: #ffffff; text-decoration: underline;}
+    .DDControl
+    {
+        padding: 0px;
+        font: .95em Tahoma, Arial, Sans-Serif;
+        color: #666;
+    }
+    .DDFloatLeft{float:left;}
+    .DDFloatRight{float:right;}
+    
+    /*------- For Print ------------*/
+    .mGrid_print {   
+		width: 100%;   
+		background-color: #fff;  
+		margin-bottom:10px; 
+		border-collapse:collapse;   
+	}  
+	.mGrid_print td {   
+		padding: 4px;    
+		color: #717171;   
+		border:1px solid Gray;
+	}  
+	.mGrid_print th {   
+		padding: 4px 2px;   
+		color: #000;   
+		background: #7392AF;  
+		font-size: 12px; 
+		line-height:1.6em; 
+		border:1px solid Gray;
+	}
+/*------------------------------------------------------------------*/    

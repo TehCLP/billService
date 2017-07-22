@@ -1,0 +1,109 @@
+﻿#LinkVenusAll { 
+    position:fixed; 
+    bottom:0px;
+    left:1%;
+    z-index:999;
+    height:35px;
+    width:98%;            
+    font-size:15px;
+    font-family:Arial Tahoma Sans-Serif;
+}
+#LinkVenusAll .LinkVenusAll-Container{
+    padding:5px;
+    border:1px solid #C0C0C0;
+    background-color:#f0f0f0;
+}
+#LinkVenusAll .LinkVenusAll-Container:hover {            
+    
+}
+#LinkVenusAll .LinkTitleBar {
+    background:#F08030;/*url(image/web-menu-part3.png) repeat-x;*/
+    width:100%;
+    height:30px;
+    text-indent:20px; 
+    line-height:30px;
+    color:#fff;
+    position:relative;
+    cursor:pointer;
+    font-weight:bold;
+    font-style:italic;
+    
+    /*-webkit-border-top-left-radius: 7px;
+    -webkit-border-top-right-radius: 7px;
+    -moz-border-radius-topleft: 7px;
+    -moz-border-radius-topright: 7px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;*/
+}
+#LinkVenusAll .LinkBody {
+    border:1px solid #d0d0d0;
+    padding: 13px;
+    background-color:#FEE179;
+}
+.LinkBody-Container{ margin:0 auto; }
+.LinkBody-Container > ul{ list-style: none; width:100%;}
+.LinkBody-Container > ul > li{
+    display:inline-block;
+	position:relative;
+}
+.LinkBody-Container > ul > li > a {
+    margin-right:8px;
+    text-decoration:none;
+}
+.LinkBody-Container > ul > li > a > img { border:none; }
+.LinkBody-Container > ul > li > div{ display:none; }
+.LinkBody-Next{
+    background:url(../images/nav_slide2.png) no-repeat -22px center;
+    display:inline-block;
+    width:30px;
+    height:180px;
+    cursor:pointer;
+}
+.LinkBody-Prev{
+    background:url(../images/nav_slide2.png) no-repeat 0px center;
+    display:inline-block;
+    width:30px;
+    height:180px;
+    cursor:pointer;
+}
+
+.iconbar{
+    background:url(../image/icon-bar3.png) no-repeat;
+    width:19px;
+    height:19px;
+    
+    position:absolute;
+    top:6px;
+    right:10px;
+}
+.iconbar:hover {
+    
+}
+.icon-up{
+    background-position:-19px 0px;            
+}
+.icon-down {
+    background-position:0px 0px;           
+}
+
+.round-all{
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+}
+.LinkShadow {
+    box-shadow:0px 0px 10px rgba(8, 22, 37, 0.5);
+}
+
+
+
+.close_modelDialog
+{
+	display:block;
+	background:url(../images/icons/close.png) no-repeat 0% 0%;
+	width:30px;
+	height:30px;
+	position:absolute;
+	top:-10px;
+	right:-10px;
+}
